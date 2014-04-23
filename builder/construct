@@ -1,0 +1,27 @@
+#!/bin/bash
+
+pagedir="core/pages"
+incldir="core/includes"
+outpdir=".."
+
+if [ "$1" == "" ]; then
+	pages=$(ls $pagedir)
+else
+	pages="$@"
+fi
+
+for page in $pages;
+	do
+		echo "Issuing rebuild commands for $page..."
+		if [ -e $pagedir/$page ]; then
+			if [ -e $outpdir/$page.html ]; then
+				rm $outpdir/$page.html
+			fi
+			cat $incldir/head >> $outpdir/$page.html
+			cat $pagedir/$page >> $outpdir/$page.html
+			cat $incldir/end >> $outpdir/$page.html
+			echo "<!-- Built $(date) on $(hostname) -->" >> $outpdir/$page.html
+		else
+			echo "$page does not exist in $pagedir"
+		fi
+	done

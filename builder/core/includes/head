@@ -92,17 +92,3 @@
 					<li><a href="location.html">Our Store</a></li>
 				</ul>
 			</div>
-			<hr>
-			<h1 style="text-align: center;">Vallejo Floor Company</h1>
-			<h2 style="text-align: center;">Discount Flooring Center</h2>
-			<h3 style="text-align: center;">
-				2200 Sonoma Boulevard<br>
-				Vallejo, California 94590<br>
-				707.731.1802
-			</h3>
-			<h3 style="text-align: center;">Open <u>daily</u> 9am - 5pm</h3>
-			<p style="text-align: center;"><iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=2200+Sonoma+Blvd,+Vallejo,+CA&amp;aq=0&amp;oq=2200+So&amp;sll=38.127893,-122.251948&amp;sspn=0.00952,0.0209&amp;g=1701+Broadway+Street,+Vallejo,+CA&amp;ie=UTF8&amp;hq=&amp;hnear=2200+Sonoma+Blvd,+Vallejo,+California+94590&amp;ll=38.106305,-122.254602&amp;spn=0.00119,0.002612&amp;t=m&amp;z=14&amp;output=embed"></iframe></p>
-		</div>
-	</body>
-</html>
-<!-- Built Tue Apr 22 22:33:30 PDT 2014 on mansellm-laptop -->
